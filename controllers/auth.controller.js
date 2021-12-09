@@ -63,6 +63,7 @@ const googleSignIn = async (req = request, res = response) => {
             const data = {
                 nombre,
                 correo,
+                rol: "USER_ROLE",
                 password: ':P',
                 img,
                 google: true
